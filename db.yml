@@ -12,4 +12,4 @@ services:
             MYSQL_USER: test
             MYSQL_PASSWORD: 1234
         volumes:
-            - ./data:/var/lib/mysql
+            - ./data/mysql:/var/lib/mysql

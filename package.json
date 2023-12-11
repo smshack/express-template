@@ -28,6 +28,7 @@
         "moment": "^2.25.3",
         "moment-timezone": "^0.5.28",
         "morgan": "^1.10.0",
+        "multer": "^1.4.5-lts.1",
         "mysql2": "^2.1.0",
         "passport": "^0.4.1",
         "passport-jwt": "^4.0.0",
@@ -36,7 +37,8 @@
         "sequelize": "^6.35.1",
         "typedi": "^0.8.0",
         "validator": "^13.0.0",
-        "winston": "^3.2.1"
+        "winston": "^3.2.1",
+        "winston-daily-rotate-file": "^4.7.1"
     },
     "devDependencies": {
         "@types/bluebird": "^3.5.30",
